@@ -4,6 +4,7 @@
 \usepackage{fullpage}
 \usepackage[font=bf]{caption}
 \usepackage{mdwlist}
+\usepackage{graphicx}
 
 % No page numbers
 \pagestyle{empty}
@@ -360,8 +361,10 @@ in collaboration with \textit{the library branch}.
 
 \section{Design Experiment}
 
-Our experiment involved a team of eleven undergraduate students and a
-faculty mentor.  The students majors include Computer Science, English
+A team of eleven undergraduate students, working with a faculty mentor,
+undertook a design experiment and pilot study to explore a monster-themed
+culture-narration game.
+The students' majors include Computer Science, English
 (Creative Writing), Philosophy, Telecommunications (Audio Production),
 and Art (Animation).
 Each student earned three credit hours for the experience during a fifteen-week
@@ -376,10 +379,14 @@ to teach cultural empathy;
 and to use technology to address complications of analog implementations.
 
 Given these goals, the team proceeded with an incremental and
-iterative approach to game design and development, each iteration
-producing an executable release in accordance with best practices of
-agile software development~\citep[see, for
-example,][]{Cockburn2006,Keith2010}.  Each iteration was tested at
+iterative approach to game design and development.
+The team used a design log to record design decisions~\citep{Cook2011},
+and each iteration
+produced an executable release in accordance with best practices of
+agile software development~\citep[see, for example,][]{Cockburn2006,Keith2010}. 
+Figures~\ref{fig:screenshots} and~\ref{fig:paper-prototype} demonstrate
+design artifacts from the design and development process.
+Each iteration was tested at
 \textit{[the library branch]}, providing valuable feedback to the
 team.  Each iteration concluded with a retrospective
 meeting~\citep{Kerth2001}, which provided an opportunity for the
@@ -396,6 +403,24 @@ from world cultures, which included both research sources
 \citet{Steer2008} and \citet{Stowell2013}).
 The team also consulted with local university experts on
 games, monsters, world cultures, and literacy.
+
+
+\newcommand{\figwidth}{2.5in}
+\begin{figure}
+\centering
+\includegraphics[width=\figwidth]{iteration-1}
+\includegraphics[width=\figwidth]{kappa-encounter}
+\caption{Screenshots from Iteration 1 (left) and 2 (right)}
+\label{fig:screenshots}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\figwidth]{paper-prototype}
+\caption{Paper prototype from Iteration 3}
+\label{fig:paper-prototype}
+\end{figure}
+
 
 \section{Pilot Study}
 
